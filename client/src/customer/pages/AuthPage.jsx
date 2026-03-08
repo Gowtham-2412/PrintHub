@@ -49,7 +49,7 @@ const AuthPage = ({ type }) => {
     <div className='flex min-h-screen items-center justify-center bg-gradient-to-br from-[#688ee0] from-50% to-[#b8c3dd] to-30% p-4 sm:p-6 md:p-8'>
       <div className='flex w-full max-w-5xl flex-col overflow-hidden rounded-3xl bg-[#ebedefe3] p-3 shadow-lg md:min-h-[75vh] md:flex-row md:rounded-[3rem]'>
         <div className='flex flex-1'>
-          <form onSubmit={handleSubmit} className='mx-auto flex w-full max-w-md flex-col justify-center gap-4 px-2 py-4 sm:px-4 md:gap-5 md:px-0'>
+          <form onSubmit={handleSubmit} className='mx-auto flex w-full max-w-md flex-col justify-center items-center gap-4 px-2 py-4 sm:px-4 md:gap-5 md:px-0'>
             <h1 className='mb-1 text-center text-3xl font-bold text-[#0f172a] sm:text-4xl md:mb-2 md:text-left'>
               {type === 'login' ? 'Login' : 'Create Account'}
             </h1>

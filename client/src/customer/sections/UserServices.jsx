@@ -57,6 +57,9 @@ const UserServices = () => {
               <motion.p layoutId={`price-${service._id}`} className="text-[#475569] mt-1 font-medium">
                 Starting at Rs {service.price}
               </motion.p>
+              <p className="mt-3 text-sm leading-6 text-slate-600 line-clamp-2">
+                {service.description || 'No description available for this service yet.'}
+              </p>
             </motion.div>
           ))}
         </div>
