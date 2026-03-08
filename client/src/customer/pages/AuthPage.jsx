@@ -43,7 +43,7 @@ const AuthPage = ({ type }) => {
     }
   }
 
-  const inputStyle = 'h-11 w-full rounded-2xl p-3 text-[#475569] shadow placeholder:text-sm focus:outline-none'
+  const inputStyle = 'h-11 sm:w-full w-4/5 rounded-2xl p-3 text-[#475569] shadow placeholder:text-sm focus:outline-none'
 
   return (
     <div className='flex min-h-screen items-center justify-center bg-gradient-to-br from-[#688ee0] from-50% to-[#b8c3dd] to-30% p-4 sm:p-6 md:p-8'>
