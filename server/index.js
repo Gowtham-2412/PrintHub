@@ -13,7 +13,7 @@ const app = express();
 
 app.use(cors({
     origin:[
-        'https://printhub-sigma.vercel.app/'
+        'https://printhub-sigma.vercel.app'
     ],
     credentials: true
 }))
