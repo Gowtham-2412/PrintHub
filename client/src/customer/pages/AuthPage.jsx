@@ -61,7 +61,7 @@ const AuthPage = ({type}) => {
                 <p>{type === 'login' ? "Don't have an account?" : 'Already existing user?'} <span className='cursor-pointer text-[#1d55ce] hover:underline' onClick={()=> type === 'login'? navigate('/register'):navigate('/login')}>{type === 'login' ? 'Click here' : 'Login here' }</span> </p>
             </form>
         </div>
-        <div className='basis-[44%] bg-[#cfdfeee3] rounded-[4rem] flex flex-col justify-center items-center'>
+        <div className='basis-[44%] bg-[#cfdfeee3] rounded-[4rem] flex flex-col justify-center items-center max-md:hidden'>
             <img src={printer} alt="" className='w-3/4'/>
             <h2 className='text-xl font-medium text-[#0f172a] tracking-wide'>Print from you Home</h2>
             <p className='text-wrap w-4/5 text-center text-[#475569]'>Place your order from anywhere and get your preferred service</p>
