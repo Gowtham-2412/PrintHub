@@ -87,4 +87,8 @@ Main route groups:
 
 - Admin-only UI is available under `/admin`.
 - To access admin actions, the user must have `role: "owner"` in the database.
-- `client/src/services/AxiosSetup.jsx` currently uses a hardcoded backend URL. Update it for production deployment.
+- Sample Admin details
+```bash
+email: admin@printhub.com
+password: admin@1234
+```
